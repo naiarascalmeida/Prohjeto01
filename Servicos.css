@@ -1,0 +1,70 @@
+.ProdsPrincipal {
+    width: 100%;
+    float: left;
+}
+
+.Produtos {
+    width: 100%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.Produtos h2 {
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+}
+
+.Produtos img {
+    width: 20%;
+    height: 20%;
+}
+
+.fa-shopping-cart {
+    margin-left: 10px;
+    float: left;
+    color: red;
+}
+
+.Produtos pre {
+    text-align: left;
+    color: grey;
+}
+
+#computador1 {
+    float: left;
+    margin-left: 10px;
+}
+
+#computador2 {
+    float: left;
+    margin-left: 5px;
+}
+
+#computador3 {
+    float: left;
+    margin-left: 4px;
+}
+
+.servicos {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 50px 30px 50px;
+}
+
+.tabela1 {
+    text-align: center;
+    width: 100%;
+    padding: 0px 50px 30px 50px;
+    font-size: 20px;
+}
+
+.tabela1 tr {
+    background-color: #343D59;
+    color: #fff;
+}
+
+.tabela1 a {
+    color: #BF7E8A;
+}

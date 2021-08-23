@@ -1,0 +1,306 @@
+/* RESET */
+
+* {
+    margin: 0px;
+    /* margem */
+    padding: 0px;
+    /* espaçamento interno */
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    /* linha de fundo */
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: blueviolet;
+}
+
+.logo img {
+    width: 150px;
+    height: 80px;
+    float: left;
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type=text] {
+    /* buscando o input do tipo text no header de class cabeçalho */
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+/* pegando o input dentro do header de class cabeçalho e alterando a cor de seu texto */
+
+.cabecalho form input::-webkit-input-placeholder {
+    color: black;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    background-color: rgb(30, 255, 0);
+    background: linear-gradient(to left, rgb(19, 19, 19), blue);
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: black;
+    padding: 18px 8px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: blue;
+    margin-right: 10px;
+}
+
+.menu li a:hover {
+    color: yellow;
+    font-size: 1.1em;
+    ;
+}
+
+.social-icons a {
+    float: right;
+    padding-right: 15px;
+    margin-left: -6px;
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    font-size: 1.2em;
+}
+
+.fa-twitter-square:hover {
+    color: #00acee;
+    font-size: 1.2em;
+}
+
+.fa-instagram-square:hover {
+    color: #3f729b;
+    font-size: 1.2em;
+}
+
+.fa-google:hover {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2em;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+    font-size: 1.2em;
+}
+
+.fa-youtube:hover {
+    color: #c4302b;
+    font-size: 1.2em;
+}
+
+
+/* PRINCIPAL */
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.sobre {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 6px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+
+/* ONDE ESTAMOS  */
+
+.onde-estamos {
+    width: 30%;
+    float: right;
+    padding: 10px 15px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.onde-estamos p {
+    color: white
+}
+
+.fa-phone-square-alt:hover {
+    color: hsl(0, 100%, 50%);
+}
+
+.fa-whatsapp:hover {
+    color: #34af23;
+}
+
+.fa-envelope:hover {
+    color: rgb(97, 52, 1);
+}
+
+.onde-estamos h2,
+p {
+    text-align: center;
+    margin-bottom: 7px;
+    color: white
+}
+
+.onde-estamos iframe {
+    width: 100%;
+    height: 210px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.onde-estamos li {
+    color: white;
+}
+
+#telefone:hover {
+    color: red;
+}
+
+#whats:hover {
+    color: #34af23;
+}
+
+#contato:hover {
+    color: rgb(97, 52, 1);
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: blueviolet;
+    padding: 10px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+}
+
+.newsletter li {
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+.newsletter p {
+    font-size: 1.4em;
+    color: black;
+}
+
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter form input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: solid 2.5px;
+    border-radius: 10px;
+    color: white;
+    background-color: initial;
+}
+
+
+/* pegando o input dentro da seção de class newsletter e alterando a cor de seu texto */
+
+.newsletter form input::-webkit-input-placeholder {
+    color: white;
+}
+
+.newsletter button {
+    width: 17%;
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 25px 8%;
+}
+
+.rodape p {
+    color: white;
+}

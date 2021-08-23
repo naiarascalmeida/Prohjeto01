@@ -1,0 +1,60 @@
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table,
+tr,
+th {
+    text-align: justify;
+}
+
+#computador {
+    text-align: center;
+    font-size: 1.8em;
+    color: red;
+}
+
+#computador1 {
+    height: 400px;
+}
+
+#computer1 {
+    width: 450px;
+}
+
+#computador2 {
+    height: 450px;
+}
+
+#computador3 {
+    height: 420px;
+}
+
+#carro1 {
+    color: green;
+    float: left;
+    padding-left: 120px;
+    font-size: 1.3em;
+}
+
+#carro2 {
+    color: green;
+    float: left;
+    padding-left: 110px;
+    font-size: 1.3em;
+}
+
+#carro3 {
+    color: green;
+    float: left;
+    padding-left: 130px;
+    font-size: 1.3em;
+}
